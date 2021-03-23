@@ -6,7 +6,7 @@ import (
 	"math"
 	"strings"
 
-	"gonum.org/v1/gonum/mat"
+	"github.com/gonum/gonum/mat"
 )
 
 func negated(inputWords []string, includeNT bool, negateList []string) bool {
